@@ -1,0 +1,296 @@
+
+
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Oi&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap');
+  html{
+    width: 1000px;
+    height: auto;
+	font-family:  Arial,"Helvetica Neue",Helvetica,sans-serif
+}
+
+body{
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+
+
+}
+
+
+
+
+  .afdiv{
+	  width:100%;
+	
+	  
+  }
+
+  input[type="file"] {
+
+	opacity: 0;
+    width: 0;
+	height:0;
+	}
+.custom-file-upload {
+	height: 60px; 
+
+	position:relative;
+    display: inline-block; 
+
+}
+
+img{
+    margin:20px;
+    width:310px;
+    height:300px;
+}
+
+
+
+
+.headcard {
+	min-height: 95px;
+    height: auto;
+    width: 1350px;
+    background: linear-gradient(to right, rgba(12, 65, 57, 0.73),rgba(3, 39, 85, 0.52));
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+    color: #000000;
+  
+    display: inline-block;
+    position: static;
+    margin-left: 50px;
+    margin-top: 40px;
+
+  
+    transition: 0.4s ease-in-out;
+
+}
+
+.headcard:hover {
+ 
+    transform: scale(1.02);
+}
+
+.maincard{
+	min-height: 95px;
+    height: auto;
+    width: 1450px;
+    background-color: rgba(29, 131, 115, 0.73);
+    font-size: 20px;
+  
+    margin: 10px;
+    border-radius: 8px;
+    color: #000000;
+     margin-left: 45px;
+    transform: scale(1.02);
+}
+
+.input-file-container{
+	margin-top:0px;
+	margin-left:0px;
+	width:0px;
+}
+
+.mid-section{
+	
+	height: 200px;
+	align-items: center;
+	display: inline-block;
+	position: relative;
+	top:100px;
+    color:#D4D1B5;
+	width:100%
+}
+
+
+
+
+.headerpayment{
+	margin:10px;
+	display: inline-block;
+	position: relative;
+	left:320px
+}
+
+
+
+
+
+.custom-file-upload custom-file-upload:hover{
+	text-shadow: 0px 0px 0px  #050505;
+}
+
+.drop-down{
+	min-width: 180px;
+    min-height: 55px;
+    width:initial;
+    height:initial;
+    display:inline-block;
+    margin:10px;
+    position: relative;
+	z-index: 8;
+}
+
+.add{
+	color:#000000;
+	margin-top: 12px;
+	margin-left: 580px ;
+    margin-right: 10px;
+	color:#ece2e1 ;
+}
+
+.AC{
+	width: auto;
+	height: auto;
+	color:#ffffff;
+	background-color: black;
+    display:inline-block;
+    position: relative;
+
+	
+
+}
+
+.create{
+	height: auto;
+	display: block;
+}
+
+.addimg{
+margin-bottom: 20px;
+width: 250px;
+height: 250px;
+}
+
+.AC:hover{
+	box-shadow: 0.6px 0.6px 3px 3px white;
+}
+
+.acCode{
+	width: auto;
+	height: auto;
+	color: #ffffff;
+	background-color: black;
+	
+	margin-left: 15px;
+}
+
+.acCode:hover{
+	box-shadow: 0.6px 0.6px 3px 3px white;
+}
+	    
+.send-button{
+	background-color:#D4D1B5 ;
+	position:relative;
+    border-radius: 10px;
+	left:590px;
+	width:240px;
+	height:65px;
+	z-index:0;
+	padding:0;
+	font-size:30px;
+	margin-bottom: 10px;
+	margin-top:30px;
+}
+
+.close_btn{
+	
+	position: relative;
+	bottom:165px;
+	left:350px;
+	border:none;
+}
+
+.close_btn:hover{
+	 box-shadow:0.5px 0.5px 0.5px 0.5px white;  
+	
+	
+}
+
+.linkinput{
+	display:block;
+	width:900px;
+	margin:0 0 30px 10px;
+	color: white;
+	background: rgba(3, 22, 46, 0.52);
+
+}
+
+input[id="youtube"]{
+	margin-left: 88px;
+}
+
+input[id="git"]{
+	margin-left: 105px;
+}
+input[id="googledrive"]{
+	margin-left: 45px;
+}
+input[id="others"]{
+	margin-left: 115px;
+}
+
+.linkdiv{
+	display: flex;
+	margin-top: 20px;
+}
+
+@media screen and (max-width:1000px) {
+
+.input-file-container{
+	margin-top: 30px;
+	margin-left: 300px;
+}	
+
+.custom-file-upload{
+	width:50%;
+	padding-top:5px;
+	padding-bottom: 5px;
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:10px;
+
+}
+
+.AC{
+	width: 5%;
+	height:25px;
+	margin-top: 800px;
+  
+}
+.ACCode{
+	width: 5%;
+	height:25px;
+	margin-top: 10px;
+
+}
+
+
+
+.drop-down{
+	display: block;
+	width:30px;
+	margin: 20px;
+	margin-left: 150px;
+}
+.mid-section{
+	width:800px;
+	height:auto;
+}
+}
+
+.no_of_images{
+	background-color: white;
+	width: 200px;
+	height:40px;
+	display: inline-block;
+}
+
+.move{
+	transform: scaleX(10px);
+}

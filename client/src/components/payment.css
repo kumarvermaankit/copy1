@@ -1,0 +1,74 @@
+.btn{
+    
+    background-image: none;
+    background: none;
+    border: none;
+    outline: none;
+    height: 70px;
+    width:70px;
+    font-size: 30px;
+    display: inline-block;
+    position: relative;
+    bottom:10px;
+    right:25px;
+    color:white;
+    
+}
+
+
+
+
+.carddiv{
+    width:138px;
+     height:150px;
+    display: inline-block;
+
+ 
+    margin-left:    220px;
+    
+    color:white;
+    background-color:black;
+    border:2px solid white;
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all 0.8s ease-out;
+}
+
+.carddiv:hover{
+    
+   
+    background-position: left bottom;
+} 
+
+
+
+
+.idiv{
+    visibility: hidden;
+    background-color:transparent;
+    font-size: 13px;
+  
+    color:white;
+    display: inline-block;
+    position: relative;
+    left:-4px;
+    bottom: 70px;
+   transition: 0.7s ease-in-out;
+   z-index: -6;
+    
+}
+
+.carddiv:hover .idiv{
+    visibility: visible;
+left:14px;
+z-index: 5;
+}
+
+.Pdiv{
+
+position: relative;
+bottom: 100px;
+
+margin: 30px;
+}
+

@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+.signup-container{
+   top:380px;
+    left: 30%;
+   position: absolute;
+   background:transparent;
+   transform: translate(-50%, -50%);
+   box-sizing: border-box;
+   color: #fff;
+   padding: 40px 20px;
+width: 650px;
+height:600px;
+}
+
+
+.line1{
+	background-color: white;
+	width:2px;
+	height: 430px;
+	position: relative;
+	left:570px;
+	bottom: 430px;
+}
+
+.or1{
+	position: relative;
+	top:170px;
+	z-index: 5;
+	font-size: 70px;
+	right:53.8px;
+	
+}
+
+.signup-container h1{
+   text-align: center;
+   font-size: 40px;
+}
+.signup-container input{
+   margin:30px;
+   width:800px;
+}
+
+.signup-container button{
+   margin-top: 30px;
+}
+
+.signup-container label{
+	display: inline-block;
+	font-size: 50px;
+	position:relative;
+	left:40px;
+}
+
+   #inputelement3{
+
+
+      width: 400px;
+      background-color: #d5d7de;
+      font-size: 20px;
+      display: inline-block;
+       position: relative;
+      top:50px;
+      right: 78px;
+      border: 1px solid #000f;
+   
+       color: #000f;
+       height: 50px;
+       border-radius: 5px;
+
+   	border:none;
+  
+
+	font-size: 20px;
+
+	bottom: 20px;
+	
+    
+   }
+
+
+.checkpara{
+   
+   position: relative;
+   top:50px;
+   left:26px;
+   color: red;
+   font-size: 20px;
+}
+
+.checkpara1{
+   position: relative;
+   top:50px;
+   left:26px;
+ color: #29bb89;
+ font-size: 20px;
+}
+
+   #signinoption{
+   color: white;
+   display: inline-block;
+   margin:30px;
+   }
+   #signinoption:hover{
+	text-shadow: 5px 10px 5px  #050505;
+	text-decoration: black;
+   }
+ 
+
+#inputelement3:hover{
+	background-color: #99a8b2;
+	
+}
+// #0093E9
+
+#signupbutton{
+   width: 300px;
+border: none;
+outline: none;
+height: 40px;
+background:#00868B;
+color: #000f;
+display: inline-block;
+position: relative;
+left:70px;
+top:45px;
+ 
+      
+   }
+
+   #signupbutton:hover{
+	
+      box-shadow: 5px 10px #050505;
+   }
+
+
+
+
+
+
+
+

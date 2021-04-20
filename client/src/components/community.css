@@ -1,0 +1,708 @@
+html {
+    width: auto;
+    height: auto;
+  
+    
+
+}
+
+body {
+
+  background: linear-gradient(to left, rgba(3, 37, 31, 0.73),rgba(3, 22, 46, 0.52)),url(CSS11.png);
+    background-size: 1540px;
+ 
+  
+  
+}
+
+
+
+.btn {
+    width: 200px;
+    height: 50px;
+    background-color: #2ec1ac;
+    margin: 50px;
+
+}
+
+
+.question {
+    width: 200px;
+    height: 100px;
+}
+
+
+.importcard {
+
+
+    width: 1500px;
+    background:transparent;
+    font-size: 25px;
+    padding: 10px;
+    margin-left: 60px;
+    
+    border-radius: 5px;
+    color: #D4D1B5;
+    display: block;
+    position: static;
+   
+
+    
+    transition: all 0.6s ease-out;
+    
+
+}
+
+.headercard {
+  
+    width: 1450px;
+    background-color: rgba(29, 131, 115, 0.73);
+    font-size: 18px;
+    padding: 5px;
+ margin: auto;
+    border-radius: 8px;
+    color: #000000;
+    
+    display: inline-block;
+    position: static;
+    margin-left: 25px;
+    margin-top: 20px;
+
+  
+    transition: 0.4s ease-in-out;
+
+}
+
+.headercard:hover {
+    
+
+    transform: scale(1.01);
+}
+
+.username {
+    display: inline-block;
+    position: relative;
+    bottom: 10px;
+    left: 1300px;
+    font-size: 10px;
+    font-style: italic;
+    color: #000;
+    cursor: pointer;
+z-index: 1;
+}
+
+
+.username:hover{
+    color: rgb(253, 229, 229);
+  text-decoration: none;
+}
+
+.username1 {
+    display: inline-block;
+    position: relative;
+    bottom: 30px;
+    left: 1250px;
+    font-size: 10px;
+    font-style: italic;
+
+}
+
+
+.questionid{
+    position: relative;
+    bottom: 30px;
+    left:10px;
+    color:black;
+    font-size: 15px;
+    font-style: italic;
+    
+}
+
+.links{
+margin:10px;
+}
+
+
+
+
+#cardbtn {
+
+
+
+
+ 
+    width: 140px;
+    height: 60px;
+    margin: 60px;
+    margin: auto;
+    margin-left: 27px;
+   margin-top: 40px;
+
+
+
+    background-color:rgba(29, 131, 115, 0.73);;
+ 
+    color: black;
+    line-height: 1.4;
+    padding: .75em;
+    text-decoration: none;
+     text-align: center;
+    font-weight: 30px;
+    font-size: 10px;
+    border: 3px;
+
+
+    font-weight: 200;
+
+    border-bottom: 3px solid;
+
+    transition: transform .18s ease-in-out;
+
+}
+
+.bts {
+    height: 0px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background: #D4D1B5;
+}
+
+rect {
+    fill: none;
+    stroke: black;
+    stroke-width: 60;
+    stroke-dasharray: 422, 0;
+    transition: all 0.18s linear;
+}
+
+.card-body {
+    padding: 0;
+}
+
+#cardbtn:hover {
+
+    font-weight: 400;
+    letter-spacing: 1px;
+   
+    border: 0.4rem solid black;
+
+}
+
+rect:hover {
+    stroke-width: 5;
+    stroke-dasharray: 15, 310;
+    stroke-dashoffset: 48;
+    transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.Ccard {
+    position: relative;
+    display: inline-block;
+
+}
+
+
+#answers{
+    margin-bottom: 50px;
+}
+
+.code-secn {
+    width: 100px;
+    font-weight: 200;
+    display: block;
+    position: relative;
+    margin-left: 0px;
+    font-size: 30px;
+}
+
+.codediv {
+    display: inline-block;
+    position: relative;
+    right: 31px
+}
+
+.divcard {
+    width: 1800px;
+}
+
+.importcard:hover {
+   
+    background-position: left bottom;
+}
+
+.c_header {
+    
+    width: 1400px;
+    height: auto;
+    font-size: 20px;
+    color: #000;
+    transition: all 0.3s ease-in-out;
+   
+    background-color: rgba(29, 131, 115, 0.73);
+    border-radius: 5px;
+
+
+}
+
+
+
+.question {
+    font-size: 10px;
+    color: #D4D1B5;
+    transition: all 0.6s ease-in-out;
+    margin-left: 60px;
+    position: relative;
+    display: inline-block;
+    top: 50px;
+    text-decoration: underline;
+}
+
+.question:hover {
+    transform: scale(1.08);
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+    html {
+        width: auto;
+        height: auto;
+        font-family: 'Roboto Condensed', sans-serif;
+        ;
+
+    }
+
+    body {
+        background-color: #000000;
+
+
+
+  
+
+    }
+
+  
+
+    .btn {
+        width: 20px;
+        height: 10px;
+        background-color: #2ec1ac;
+        margin: 5px;
+
+    }
+
+    .contain {
+        width: auto;
+        height: auto;
+        background-color: #000000;
+     
+    }
+
+    .question {
+        width: 80px;
+        height: 30px;
+    }
+
+    h3{
+        font-size: 15px;
+    }
+
+
+
+
+    .Ccard {
+        position: relative;
+        display: inline-block;
+
+    }
+
+    .divcard {
+        width: 800px;
+    }
+
+    .importcard:hover {
+        box-shadow: 10px 10px #99a8b2;
+    }
+
+    .c_header {
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    html {
+        width: auto;
+        height: auto;
+        font-family: 'Roboto Condensed', sans-serif;
+        ;
+
+    }
+
+    body {
+        background-color: #000000;
+
+
+
+
+    }
+
+
+    .btn {
+        width: 50px;
+        height: 20px;
+        background-color: #2ec1ac;
+        margin: 50px;
+
+    }
+
+    .contain {
+        width: auto;
+        height: auto;
+        background-color: #000000;
+    
+    }
+
+    .question {
+        width: 140px;
+        height: 60px;
+    }
+
+
+
+    .Ccard {
+        position: relative;
+        display: inline-block;
+
+    }
+
+    .divcard {
+        width: 1400px;
+    }
+
+    .importcard:hover {
+        box-shadow: 10px 10px #99a8b2;
+    }
+
+    .c_header {
+        font-size: 10px;
+        font-weight: 200;
+    }
+
+}
+
+.questionelement {
+    width: 1500px;
+}
+
+
+@keyframes example {
+    from {
+        height: initial
+    }
+
+    to {
+        height: fit-content
+    }
+}
+
+.main {
+    
+
+    width: 1500px;
+    height:160px;
+    font-size: 20px;
+    
+    margin-left: 10px;
+    border-radius: 10px;
+    color: #ffffff;
+    display: inline-block;
+    position: relative;
+    animation-name: example;
+
+}
+
+.answerbtn {
+    width: 100px;
+    display: inline-block;
+    position: relative;
+    left: 550px;
+}
+
+.afterloginbuttons {
+    display: inline-block;
+    position: relative;
+    left: 30px;
+}
+
+.card_img {
+    width: 30px;
+    height: 30px;
+   
+    position: absolute;
+    left: 1377px;
+    bottom: 90px;
+   margin-bottom: 565px;
+  z-index: auto
+}
+
+.headercard:hover .card_img{
+    position: relative;
+}
+
+.card_img1 {
+    width: 30px;
+    height: 30px;
+  
+    position: relative;
+    left: 1383px;
+    bottom: 70px;
+}
+
+
+
+
+.searchInput {
+
+    height: 51px;
+    width: 100px;
+    background-color: white;
+
+    display: inline-block;
+    position: relative;
+    bottom: 27px;
+    left: 176px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    border: double;
+    border-right: none;
+    border-bottom: none;
+}
+
+.searchInput:focus {
+    width: 150px;
+    border-bottom: none;
+
+
+}
+
+
+
+
+.searchButton {
+    width: 60px;
+    height: 51px;
+    padding-left: 1px;
+
+    display: inline-block;
+    position: relative;
+    bottom: 27.5px;
+    left: 176px;
+    background-color: white;
+  
+
+
+    border: double;
+    border-bottom: none;
+    border-left: none;
+}
+
+
+
+
+.drop_down {
+    min-width: 130px;
+    min-height: 55px;
+    width: initial;
+    height: initial;
+
+    margin: 10px;
+
+    display: inline-block;
+    position: relative;
+    bottom: 30px;
+    left: 176px;
+    
+
+}
+
+.setedit{
+
+margin-left: 10px;
+color:black;
+font-size: 20px;
+}
+
+.set{
+    display:inline-block;
+    position: relative;    
+    left:1150px;
+    top:35px;
+}
+
+#tf {
+    width: 300px;
+    padding: 10px;
+}
+
+.timer {
+    display: inline-block;
+    text-align: center;
+    width: 35px;
+    outline: 2px solid #000;
+    padding: 3px;
+    margin: 5px;
+    box-shadow: 5px 5px black;
+
+    border-color: black;
+
+
+}
+
+.divtimer {
+    width: 220px;
+    margin: 20px;
+    display: inline-block;
+    position: relative;
+    right: 22px;
+    bottom: 18px;
+
+
+}
+
+.CD {
+    display: inline-block;
+    position: relative;
+    right: 20px;
+
+}
+
+
+
+.frm {
+    height: 0px;
+   display: inline-block;
+    position: relative;
+    right: 290px;
+    width:760px;
+   
+
+}
+
+.newcode{
+    position: relative;
+    bottom: 717.5px;
+    left:38.5px;
+
+}
+
+.codeedit{
+    margin-bottom: 10px;
+    position: relative;
+    top:28px;
+    left: 35px;
+    color: #000;
+    transition: 0.7s ease-in-out
+}
+
+.linkshowpara{
+    display: inline-block;
+   margin-bottom: 20px;
+}
+
+.editpara{
+    display: inline-block;
+    color:#2ec1ac;
+   
+  
+}
+
+.userprofile {
+    font-family: sans-serif;
+    color: black;
+    font-weight: 5000px;
+    font-size: 12px;
+    display: inline-block;
+}
+
+.userimageprofile {
+    display: inline-block;
+
+
+
+}
+
+.userimageprofile img {
+    border-radius: 170px;
+    height: 20px;
+    width: 20px;
+    margin: 0px;
+    margin-right: 10px;
+}
+
+.commentsection {
+    margin: 0;
+    font-size: medium;
+    font-style: italic;
+}
+
+.displayComments {
+    display: inline-block;
+}
+
+.pagination a {
+    color: white;
+    padding: 15px;
+    border: 0.2rem solid black;
+
+
+}
+
+.pagination {
+    margin-left: 620px;
+}
+
+.cardimg {
+    width: 300px;
+    height: 300px;
+    margin: 30px;
+    transition: 0.5s ease-in-out;
+}
+
+.cardimg:hover {
+    transform: scale(1.25);
+}
+
+.forward{
+    display: inline-block;
+    position: relative;
+    left:1430px;
+ 
+    background-color:transparent;
+    border: none;
+    z-index: 5;
+}
+
+
+
+.forback{
+    display: inline-block;
+    position: relative;
+    left:10px;
+    background-color:transparent;
+    border: none;
+    z-index: 5;
+}
+
+.community_timer{
+    display: inline-block;
+    position: relative;
+    /* bottom: 25px; */
+    right: 35px;
+}
+
+.vote{
+    background-color: rgba(29, 131, 115, 0.73);
+}

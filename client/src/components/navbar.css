@@ -1,0 +1,188 @@
+body{
+   
+    width:1500px
+}
+
+
+#nav_bar{
+    
+    background-color:#16697a;
+height:70px;
+    padding: 1px;
+    margin:2px;
+    width:1540px
+
+}
+
+
+.navlog{
+	margin:5px;
+	display: inline-block;
+	position: relative;
+	
+    left:20px;
+  
+
+}
+
+.navheader{
+    font-size: 20px;
+    color: black;
+    transition: 0.3s ease-in-out;
+}
+
+.navheader:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+
+.profile{
+    width: 50px;
+    height:50px;
+    border-radius: 30px;
+
+	
+    position: relative;
+    display: inline-block;
+	z-index: 5;
+}
+.drop{
+	background:transparent;
+	border: none;
+	
+}
+
+.cyducktitle{
+	display:inline-block;
+	position: relative;
+	right: 120px;
+	top:10px;
+	font-size:100px
+}
+.cyducktitlebefore{
+	display:inline-block;
+	position: relative;
+
+	top:10px;
+	font-size:100px
+}
+
+
+.frm1 {
+    height: 0px;
+    display: inline-block;
+    position: relative;
+   right:180px
+  
+   
+
+}
+
+.dropdown{
+	display: inline-block;
+	position: relative;
+	left:1350px
+}
+
+.profiletip{
+    visibility: hidden;
+	width: 60px;
+	background-color:gray;
+	color: #000;
+	text-align: center;
+
+	border-radius: 30px;
+   
+	
+	position: absolute;
+    top:55px;
+    left:10px;
+	z-index: 1;
+	display: none;
+}
+
+.langtip{
+    visibility: hidden;
+	width: 60px;
+	background-color:gray;
+	color: #000;
+	text-align: center;
+
+	border-radius: 30px;
+   
+	
+	position: absolute;
+   
+	z-index: 1;
+
+}
+
+.fieldtip{
+    visibility: hidden;
+	width: 60px;
+	background-color:gray;
+	color: #000;
+	text-align: center;
+
+	border-radius: 30px;
+   
+	
+	position: absolute;
+
+	z-index: 1;
+
+}
+
+.framtip{
+    visibility: hidden;
+	width: 60px;
+	background-color:gray;
+	color: #000;
+	text-align: center;
+
+	border-radius: 30px;
+   
+
+	position: absolute;
+
+	z-index: 5;
+	display: none;
+}
+
+.lang:focus-visible .langtip{
+    display: inline-block;
+    visibility: visible;
+}
+
+
+.profilelink:hover .profiletip{ 
+    display: inline-block;
+    visibility: visible;
+}
+
+.navitem{
+	
+	color: #000;
+	height: 34px;
+	width:auto;
+	margin: 20px;
+	position: relative;
+	left: 90px;
+	
+	padding: 5.5px;
+    padding-top:5px;
+	
+    border:3px solid white;
+    font-size:15px;
+    color:yellow;
+    text-align: center;
+}
+.navitem:hover{
+	color: yellow;
+	text-decoration: none;
+	background-color:	#00868B;
+}
+

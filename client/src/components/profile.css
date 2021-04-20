@@ -1,0 +1,289 @@
+
+
+
+.container{
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width:auto;
+    height:auto;
+
+    border:5px solid white;
+    
+    border-radius: 20px;
+    background: rgba(5, 22, 19, 0.73);
+    margin-top: 50px;
+    color: white;
+   
+}
+.pimg{
+    box-sizing: border-box;
+    width:149px;
+    height:149px;
+    
+    border-radius: 50%;
+    margin: 0;
+    margin-left: 15px;
+    margin-top: 10px;
+    border:5px solid red;
+    padding:5px;
+    background-color: khaki;
+}
+.inpt,select{
+
+ margin-left: auto;
+ margin-right: auto;
+ box-sizing: border-box;
+ background: none;
+ color:lightblue;
+ margin-bottom: 50px;
+ padding: 4px;
+ width: 220px;
+ height: 32px;
+ border:none;
+ border-bottom:1px solid #0082e6;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ font-size: 20px;
+ transition: .2s ease;
+ display: inline-block;
+}
+.inpt:focus{
+    border-bottom: 2px solid wheat;
+    
+    color:white;
+    transition: .2s ease;
+}
+
+.pswinput{
+  
+ background: none;
+ color:lightblue;
+
+ margin-bottom: 50px;
+
+ padding: 4px;
+ width: 220px;
+ height: 32px;
+ border:none;
+ border-bottom:1px solid #0082e6;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ font-size: 15px;
+ transition: .2s ease;
+
+ 
+}
+
+.pswinput:hover{
+    border-bottom: 2px solid wheat;
+    
+    color:white;
+    transition: .2s ease;
+}
+
+
+.pswbtn{
+    margin-left: 850px;
+    display: inline-block;
+    position: relative;
+    bottom: 30px;
+    background: transparent;
+    font-size: 30px;
+    border:none;
+    color:white;
+    
+}
+
+
+
+.pswbtn:hover{
+    
+    color: yellowgreen;
+    text-decoration: none;
+}
+
+.pshead{
+    margin-left: 450px;
+}
+
+.pswdiv{
+    margin-left: 274px;
+    margin-top: 60px;
+    
+}
+
+.ip{
+    display:block
+}
+
+.editbtn{
+   
+    position: relative;
+    
+}
+
+.l{
+ display:inline-block;
+ position: relative;
+ font-size: 20px;
+
+
+}
+
+.bt{
+    border:none;
+    background-color:transparent;
+    color: white;
+    height: 30px;
+    width:70px;
+    border-radius: 10px;
+    margin: 0px;
+    transition: all 0.3s;
+    display: inline-block;
+    position: relative;
+}
+
+.drop_down1 {
+
+    min-width: 100px;
+    width: auto;
+    font-size: 14px;
+    color:black;
+}
+
+.bt2{
+    height: fit-content;
+    background:transparent;
+    color: white;
+    border: none;
+    border-radius: 5px;
+   
+}
+.bt2:hover{
+  transform: scale(1.1);
+}
+
+.bt3{
+    height: 35px;
+    width: 100px;
+    background-color:#D4D1B5;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    margin-left: 500px;
+    margin-bottom: 20px;
+    transition: 0.4s ease-in-out;
+}
+
+.bt3:hover{
+    transform: scale(1.1);
+  }
+.sklheader{
+    font-size: 20px;
+}
+
+.skilldiv{
+    margin: 50px;
+  margin-left: 500px;
+  padding: auto;
+  display: block;
+}
+
+.sklmdiv{
+    width: auto;
+    height: auto;
+}
+
+
+.listdiv{
+    margin:auto;
+    margin-bottom: 40px;
+    margin-left: 200px;
+    display: block;
+    width:900px;
+    height: auto;
+   align-content: center;
+}
+
+.listdiv p{
+    margin:0px;
+    padding:18px;
+    padding-top:10px;padding-bottom:10px;
+    border:3px solid white;
+    font-size:19px;
+    color:yellow;
+    border-radius:30px;
+    display: inline-block;
+}
+.listdiv p:hover{
+    background-color:	#00868B;
+}
+
+.bt:hover{
+    transform:scale(1.1);
+}
+.f{
+    display: none;
+}
+option{
+    color: wheat;
+}
+.lab{
+    box-sizing: border-box;
+    font-size: 20px;
+    background-color: black;
+    color:white;
+    border-radius:10px;
+    padding:5px 20px;
+    transition: all 0.3s;
+    margin-top: 150px;
+}
+
+
+.userpara{
+    display: inline-block;
+    position: relative;
+    top:30px;
+    right:300px
+}
+
+.mp{
+    display: block;
+    
+}
+
+.mainprofile{
+    border-radius: 100px;
+   display: inline-block;
+    margin-left: 400px;
+}
+
+.editbtn2{
+    margin:0 5px 0 5px;
+    height: fit-content;
+    background-color: transparent;
+    border: none;
+}
+
+.editbtn2:hover{
+    transform: scale(1.1);
+}
+
+.editicon{
+    width: 5px;
+    height: 5px;
+}
+
+.progress{
+    width:200px;
+    height:20px;
+    background-color: white;
+    display: inline-block;
+    position: relative;
+    bottom: 300px;
+    left:900px
+}
+
+.progress_para{
+    font-size: 15px;
+}
